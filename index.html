@@ -1,33 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Dynamic Views SPA</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
-    <nav>
-        <a href="#home">HOME </a>
-        <a href="#about">ABOUT</a>
-        <a href="#products">PRODUCTS</a>
-        <a href="#contact">CONTACTS</a>
+    <header>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
 
-    </nav>
-    <h1>Welcome:</h1>
-    <h3>---------</h3>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro eos sed natus asperiores repudiandae placeat
-        tempore vel nihil hic officia voluptas vitae necessitatibus eum, rerum repellendus. Ut delectus et neque!</p>
+    <div id="content">
+        <div id="home-view" style="display: none;">
+            <h2>Home</h2>
+            <h3>------</h3>
+            <div class="a_beach"></div>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam illum, nesciunt expedita voluptates
+                vel deleniti praesentium facere, veritatis possimus accusamus nobis, vitae quod consequatur. Ad qui
+                repudiandae perspiciatis hic itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                architecto commodi deleniti facere beatae quia aperiam qui? Animi quae totam consectetur explicabo
+                tempore dicta nemo! Obcaecati eos provident maiores illum? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Perspiciatis architecto quasi ducimus nesciunt cupiditate voluptate quisquam magnam
+                beatae enim tempore assumenda iure nisi, sapiente accusantium veritatis id sint ea mollitia. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Porro est perspiciatis distinctio hic animi? Ipsam,
+                doloribus deserunt. Veniam fugit reprehenderit at maxime voluptates quos id ipsa magnam, culpa minus
+                itaque.</p>
+        </div>
+
+        <div id="about-view" style="display: none;">
+            <h2>About</h2>
+            <h3>------</h3>
+            <div class="plagebeach"></div>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam illum, nesciunt expedita voluptates
+                vel deleniti praesentium facere, veritatis possimus accusamus nobis, vitae quod consequatur. Ad qui
+                repudiandae perspiciatis hic itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                architecto commodi deleniti facere beatae quia aperiam qui? Animi quae totam consectetur explicabo
+                tempore dicta nemo! Obcaecati eos provident maiores illum? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Perspiciatis architecto quasi ducimus nesciunt cupiditate voluptate quisquam magnam
+                beatae enim tempore assumenda iure nisi, sapiente accusantium veritatis id sint ea mollitia. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Porro est perspiciatis distinctio hic animi? Ipsam,
+                doloribus deserunt. Veniam fugit reprehenderit at maxime voluptates quos id ipsa magnam, culpa minus
+                itaque.</p>
+        </div>
+
+        <div id="contact-view" style="display: none;">
+            <h2>Contact</h2>
+            <h3>------</h3>
+            <div class="sunset"></div>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam illum, nesciunt expedita voluptates
+                vel deleniti praesentium facere, veritatis possimus accusamus nobis, vitae quod consequatur. Ad qui
+                repudiandae perspiciatis hic itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                architecto commodi deleniti facere beatae quia aperiam qui? Animi quae totam consectetur explicabo
+                tempore dicta nemo! Obcaecati eos provident maiores illum? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Perspiciatis architecto quasi ducimus nesciunt cupiditate voluptate quisquam magnam
+                beatae enim tempore assumenda iure nisi, sapiente accusantium veritatis id sint ea mollitia. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Porro est perspiciatis distinctio hic animi? Ipsam,
+                doloribus deserunt. Veniam fugit reprehenderit at maxime voluptates quos id ipsa magnam, culpa minus
+                itaque.</p>
+        </div>
 
 
-    <h2>More:</h2>
-    <h3>---------</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptates porro provident totam quibusdam,
-        magnam animi at in possimus repudiandae laborum, alias cumque nisi sint placeat ipsa id, sapiente aliquam!</p>
 
+        <script src="lib/jquery-3.7.1.min.js"></script>
+        <script src="app/app.js"></script>
 </body>
 
 </html>

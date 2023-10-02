@@ -1,0 +1,84 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+ font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+#content {
+  padding: 20px;
+}
+
+/* Add styles for different views */
+#home-view {
+  background-color: #e0f7fa;
+}
+
+#about-view {
+  background-color: #f0e68c;
+
+}
+
+#contact-view {
+  background-color: #ffe0b2;
+}
+
+.plagebeach{
+  background-image: url('../img/plage.jpg');
+  background-position: center;
+  border: 5px solid;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+  height: 300px;
+}
+
+
+.a_beach{
+  background-image: url('../img/afrobeach.jpg');
+  background-position: center;
+  border: 5px solid;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+  height: 300px;
+}
+
+
+.sunset{
+  background-image: url('../img/sunset.jpg');
+  background-position: center;
+  border: 5px solid;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+  height: 300px;
+}
